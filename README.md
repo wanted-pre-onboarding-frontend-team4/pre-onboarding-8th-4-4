@@ -93,7 +93,7 @@ $ npm start
 
 ## 📌배포링크
 
-https://magical-drink.surge.sh/
+https://pre-onboarding-8th-4-4.vercel.app/
 
 <br />
 <br />
@@ -169,7 +169,19 @@ https://magical-drink.surge.sh/
 ## 📁폴더구조
 
 ```
-
+src
+ ┣ api
+ ┃ ┗ comments.tsx
+ ┣ components
+ ┃ ┣ CommentForm.tsx
+ ┃ ┣ CommentList.tsx
+ ┃ ┗ Paginations.tsx
+ ┣ store
+ ┃ ┗ store.ts
+ ┣ styles
+ ┃ ┗ GlobalStyle.ts
+ ┣ App.tsx
+ ┗ index.tsx
 
 ```
 
