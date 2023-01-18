@@ -147,30 +147,7 @@ https://magical-drink.surge.sh/
 ## 📁폴더구조
 
 ```
-src
- ┣ apis
- ┃ ┗ index.ts
- ┣ components
- ┃ ┣ autoComplete
- ┃ ┃ ┣ AutoCompleteItem.tsx
- ┃ ┃ ┗ EmptyResult.tsx
- ┃ ┗ SearchBar.tsx
- ┣ hooks
- ┃ ┣ useDebounce.ts
- ┃ ┗ useKeyDown.ts
- ┣ pages
- ┃ ┗ SearchPage.tsx
- ┣ recoil
- ┃ ┗ limitedData.ts
- ┣ styles
- ┃ ┗ GlobalStyle.ts
- ┣ types
- ┃ ┗ index.ts
- ┣ App.css
- ┣ App.tsx
- ┣ index.css
- ┣ index.tsx
- ┗ react-app-env.d.ts
+
 
 ```
 
