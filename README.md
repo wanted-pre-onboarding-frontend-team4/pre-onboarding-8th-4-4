@@ -56,7 +56,9 @@ $ npm run api
 $ npm start
 
 ```
-## 🖥프로젝트 gif
+<br />
+
+## 📝프로젝트 gif
 
 <details>
   <summary>글 작성하기 </summary>
