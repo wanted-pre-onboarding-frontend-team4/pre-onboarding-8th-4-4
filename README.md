@@ -56,6 +56,38 @@ $ npm run api
 $ npm start
 
 ```
+## 🖥프로젝트 gif
+
+<details>
+  <summary>글 작성하기 </summary>
+    <div markdown="1">
+      <img src= "https://user-images.githubusercontent.com/91598778/213171760-d6a11da4-7911-45b7-800c-a4d3818f3d37.gif">
+    </div>
+</details>
+
+
+<details>
+  <summary>글 수정</summary>
+    <div markdown="1">
+      <img src= "https://user-images.githubusercontent.com/91598778/213171769-3c0c567e-883c-4df2-b666-c99432f47990.gif">
+    </div>
+</details>
+
+<details>
+  <summary>글 삭제</summary>
+    <div markdown="1">
+      <img src= "https://user-images.githubusercontent.com/91598778/213171768-e4a4038c-bcc1-405f-bd91-4292915d0198.gif">
+    </div>
+</details>
+
+<details>
+  <summary> 페이지네이션  </summary>
+    <div markdown="1">
+      <img src= "https://user-images.githubusercontent.com/91598778/213171772-95f8b7a0-0cce-4811-a29f-54f51e74e464.gif">
+    </div>
+</details>
+
+
 
 <br />
 
