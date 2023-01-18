@@ -160,7 +160,7 @@ https://magical-drink.surge.sh/
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white" >
 <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white" >
 <img src="https://img.shields.io/badge/Antd-61DAFB?style=for-the-badge&logo=Antd&logoColor=white" >
-<img src="https://img.shields.io/badge/recoil-017BE8?style=for-the-badge&logo=recoil&logoColor=white" >
+<img src="https://img.shields.io/badge/redux-017BE8?style=for-the-badge&logo=redux&logoColor=white" >
 
  </div>
 
