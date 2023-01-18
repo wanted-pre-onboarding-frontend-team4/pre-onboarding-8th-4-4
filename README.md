@@ -24,10 +24,11 @@
 
 ## 💪팀원명
 
-| <img src="https://avatars.githubusercontent.com/u/104765779?v=4" width="120" height="120" /> | <img src="https://avatars.githubusercontent.com/u/92634711?v=4" width="120" height="120" /> | <img src="https://user-images.githubusercontent.com/105702862/205853151-2fa17dea-1d5d-47ba-9f54-94cd175a5e19.jpeg" width="120" height="120" /> | <img src="https://avatars.githubusercontent.com/u/44992033?v=4" width="120" height="120" /> | <img src="https://avatars.githubusercontent.com/u/91598778?v=4" width="120" height="120" /> |
-| :------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: |
-|                           [tlsrb100](https://github.com/tlsrb100)                            |                           [tnals545](https://github.com/tnals545)                           |                                                     [KKKHun2](https://github.com/KKKHun2)                                                      |                          [hyejineee](https://github.com/hyejineee)                          |                          [jeongmin7](https://github.com/jeongmin7)                          |
-|                                          성환(팀장)                                          |                                         수민(팀원)                                          |                                                                   용훈(팀원)                                                                   |                                         혜진(팀원)                                          |                                         정민(팀원)                                          |
+ | <img src="https://avatars.githubusercontent.com/u/92634711?v=4" width="120" height="120" /> | <img src="https://user-images.githubusercontent.com/105702862/205853151-2fa17dea-1d5d-47ba-9f54-94cd175a5e19.jpeg" width="120" height="120" /> | <img src="https://avatars.githubusercontent.com/u/44992033?v=4" width="120" height="120" /> | <img src="https://avatars.githubusercontent.com/u/91598778?v=4" width="120" height="120" /> |
+ :-----------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: |
+|                           [tnals545](https://github.com/tnals545)                           |                                                     [KKKHun2](https://github.com/KKKHun2)                                                      |                          [hyejineee](https://github.com/hyejineee)                          |                          [jeongmin7](https://github.com/jeongmin7)                          |
+|                                         수민(팀원)                                          |                                                                   용훈(팀원)                                                                   |                                         혜진(팀원)                                          |                                         정민(팀원)                                          |
+
 
 <br />
 
@@ -48,11 +49,9 @@ $ git clone https://github.com/wanted-pre-onboarding-frontend-team4/pre-onboardi
 $ npm install
 
 # json 서버  실행
-
 $ npm run api
 
 # 프로젝트 실행
-
 $ npm start
 
 ```
@@ -155,11 +154,31 @@ https://pre-onboarding-8th-4-4.vercel.app/
 
 ## ✅Best Practice 및 채택 근거
 
-1. <a href="https://github.com/wanted-pre-onboarding-frontend-team4/pre-onboarding-8th-3-4/wiki/1.-%EC%9E%85%EB%A0%A5%ED%95%9C-%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%99%80-%EC%9D%BC%EC%B9%98%ED%95%98%EB%8A%94-%EB%B6%80%EB%B6%84-%EB%B3%BC%EB%93%9C-%EC%B2%98%EB%A6%AC-%EC%A0%84%EB%9E%B5">입력한 텍스트와 일치하는 부분 볼드 처리 전략</a>
-2. <a href="https://github.com/wanted-pre-onboarding-frontend-team4/pre-onboarding-8th-3-4/wiki/2.-%EA%B2%80%EC%83%89%EC%96%B4-%EC%97%86%EC%9D%8C-%EC%B6%9C%EB%A0%A5">검색어 없음 출력</a>
-3. <a href="https://github.com/wanted-pre-onboarding-frontend-team4/pre-onboarding-8th-3-4/wiki/3.-Cache-Storage%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-Api-%ED%98%B8%EC%B6%9C-%EC%B5%9C%EC%A0%81%ED%99%94">Cache Storage사용하여 Api 호출 최적화</a>
-4. <a href="https://github.com/wanted-pre-onboarding-frontend-team4/pre-onboarding-8th-3-4/wiki/4.-%EC%9E%85%EB%A0%A5%EB%A7%88%EB%8B%A4-API-%ED%98%B8%EC%B6%9C%ED%95%98%EC%A7%80-%EC%95%8A%EB%8F%84%EB%A1%9D-API-%ED%98%B8%EC%B6%9C-%ED%9A%9F%EC%88%98%EB%A5%BC-%EC%A4%84%EC%9D%B4%EB%8A%94-%EC%A0%84%EB%9E%B5-%EC%88%98%EB%A6%BD-%EB%B0%8F-%EC%8B%A4%ED%96%89">입력마다 api호출 전략</a>
-5. <a href="https://github.com/wanted-pre-onboarding-frontend-team4/pre-onboarding-8th-3-4/wiki/5.-%ED%82%A4%EB%B3%B4%EB%93%9C-%EC%A1%B0%EC%9E%91-%EA%B5%AC%ED%98%84">키보드 조작 구현</a>
+**1. 미들웨어 적용**
+
+- Devtools를 사용할 수 없는 경우 redux-logger를 사용하여 리듀서가 실행되기 전과 후를 쉽게 비교가능합니다.
+- createApi에서 반환하는 미들웨어를 등록하여 폴링, 가비지 컬렉션 등을 수행할 수 있게 했습니다.
+
+<img src="https://media.discordapp.net/attachments/1065250452821774407/1065253714354511973/2023-01-18_9.57.51.png" />
+
+<br />
+
+**2. redux를 사용해서 비동기 처리 - 댓글 CRUD**
+
+https://github.com/wanted-pre-onboarding-frontend-team4/pre-onboarding-8th-4-4/blob/69c7d77d25464bd7054a3b3d47621d12764df260/src/api/comments.tsx#L28-L55
+
+- 비동기 처리 댓글 CRUD는 RTK(Redux-Toolkit) Query를 사용하여 구현했습니다.
+- RTK Query는 Redux Toolkit core의 위에서 작성되었고, RTK의 API들은 createSlice와 createAsyncThunk를 확장해서 만들어졌습니다. 따라서 작성해야 하는 코드의 양이 줄어드는 효과를 기대할 수 있었습니다.
+- 또한 여러개의 커스텀 hooks들이 다른 파일들에 있는 것 보다 한곳에 위치하는게 요청, 캐시 무효화, 공통 앱 설정을 관리하기가 더욱 쉽다고 판단되어 RTK Query를 사용하였습니다.
+
+<br />
+
+**3. 페이지네이션**
+
+https://github.com/wanted-pre-onboarding-frontend-team4/pre-onboarding-8th-4-4/blob/69c7d77d25464bd7054a3b3d47621d12764df260/src/components/Paginations.tsx#L10-L55
+
+- 페이지네이션 컴포넌트를 따로 분리하여 재사용성을 높였습니다.
+- 페이지네이션에서 페이지 번호를 클릭하면 props로 넘어온 onChage 함수를 통해 페이지 번호를 업데이트 하고 페이지 번호의 변경에 따라 useGetCommentsQuery가 다시 호출되면서 페이지 마다 보여지는 댓글이 달라지도록 구현했습니다.
 
 <br />
 
@@ -190,10 +209,9 @@ src
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white" >
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white" >
 <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white" >
-<img src="https://img.shields.io/badge/Antd-61DAFB?style=for-the-badge&logo=Antd&logoColor=white" >
-<img src="https://img.shields.io/badge/redux-017BE8?style=for-the-badge&logo=redux&logoColor=white" >
+<img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" >
 <img src="https://img.shields.io/badge/Redux DevTools-F15F5F?style=for-the-badge&logo=Redux DevTools&logoColor=white" >
-<img src="https://img.shields.io/badge/REDUX-LOGGER-41DAFB?style=for-the-badge&logo=REDUXLOGGER&logoColor=white" >
+<img src="https://img.shields.io/badge/REDUX LOGGER-41DAFB?style=for-the-badge&logo=REDUXLOGGER&logoColor=white" >
  </div>
 
 <br />
