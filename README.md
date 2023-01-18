@@ -11,8 +11,8 @@
 - [팀원명](#팀원명)
 - [프로젝트 설명](#프로젝트-설명)
 - [프로젝트 실행 방법](#프로젝트-실행-방법)
+- [프로젝트 gif](#프로젝트-gif)
 - [배포링크](#배포링크)
-- [배포gif](#배포gif)
 - [협업과정](#협업과정)
 - [팀 코드 컨벤션](#팀-코드-컨벤션)
 - [과제목표](#과제목표)
@@ -33,7 +33,7 @@
 
 ## 📝프로젝트 설명
 
-검색창 구현 + 검색어 추천 기능 구현
+API 서버와 통신해서 작동하는 댓글 프로젝트를 Redux를 통해 구현
 
 <br />
 
@@ -100,12 +100,7 @@ https://pre-onboarding-8th-4-4.vercel.app/
 <br />
 <br />
 
-## 📰배포gif
 
-<a href="https://github.com/wanted-pre-onboarding-frontend-team4/pre-onboarding-8th-3-4/wiki/gif-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0">gif 파일 확인하기</a>
-
-<br />
-<br />
  
 ## 😊협업과정
 
@@ -143,17 +138,17 @@ https://pre-onboarding-8th-4-4.vercel.app/
 
 ## 💯과제목표
 
-#### 댓글 불러오기,작성,수정,삭제 동작하도록 기능구현
+#### 댓글 불러오기,수정,삭제 동작하도록 기능구현
 
-- 댓글 불러오기,작성,수정,삭제 동작하도록 기능 구현합니다.
+- 댓글 불러오기 기존의 작성해둔 댓글 수정 삭제 동작하도록 기능 구현
 
 #### 페이지네이션
 
-- 한페이지당 8개의 댓글들 나오게 만들었습니다.
+- 한페이지당 8개의 댓글이 나오게 만들었습니다.
 
-#### 댓글작성,수정,삭제 후 동작 확인
+#### 댓글작성
 
-- 댓글작성,수정,삭제 후 동작 확인
+- 댓글작성 가능하며 작성시 첫번째 페이지로 이동
 
 
 <br />
@@ -197,7 +192,8 @@ src
 <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white" >
 <img src="https://img.shields.io/badge/Antd-61DAFB?style=for-the-badge&logo=Antd&logoColor=white" >
 <img src="https://img.shields.io/badge/redux-017BE8?style=for-the-badge&logo=redux&logoColor=white" >
-
+<img src="https://img.shields.io/badge/Redux DevTools-F15F5F?style=for-the-badge&logo=Redux DevTools&logoColor=white" >
+<img src="https://img.shields.io/badge/REDUX-LOGGER-41DAFB?style=for-the-badge&logo=REDUXLOGGER&logoColor=white" >
  </div>
 
 <br />
