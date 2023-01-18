@@ -1,8 +1,8 @@
-# 원티드 프리온보딩 프론트엔드 4팀 - 3주차 과제
+# 원티드 프리온보딩 프론트엔드 4팀 - 4주차 과제
 
-> 원티드 프리온보딩 과제 3주차 (검색창 구현 + 검색어 추천 기능 구현)
+> 원티드 프리온보딩 과제 4주차 (API 서버와 통신해서 작동하는 댓글 프로젝트를 Redux를 통해 구현)
 >
-> 기간 : 2023년 1월 10일 ~ 2023년 1월 13일
+> 기간 : 2023년 1월 16일 ~ 2023년 1월 19일
 
 <br />
 
@@ -42,16 +42,18 @@
 ```shell
 
 # 프로젝트 clone
-$ git clone https://github.com/wanted-pre-onboarding-frontend-team4/pre-onboarding-8th-3-4.git
+$ git clone https://github.com/wanted-pre-onboarding-frontend-team4/pre-onboarding-8th-4-4.git
 
 # npm 설치
 $ npm install
 
-# .env 파일 생성 및 해당 상수 삽입
-REACT_APP_BASE_URL=http://localhost:4000/sick
+# json 서버  실행
+
+$ npm run api
 
 # 프로젝트 실행
-npm start
+
+$ npm start
 
 ```
 
